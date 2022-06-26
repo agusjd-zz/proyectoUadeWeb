@@ -271,7 +271,22 @@ section div div img {
 .productos div img {
     margin-top: 2rem;
 }
-
+/* Productos responsive */
+@media screen and (max-width:858px){
+    .menuProductos li a {
+        font-size: 1.2rem;
+    }
+    .headProducto{
+        padding-left: 4rem;
+        padding-right: 1rem;
+    }
+    .headProducto h1{
+        font-size: 2rem;
+    }
+    .productos{
+        margin-left: 25%;
+    }
+}
 
 /* Nosotros */
 
