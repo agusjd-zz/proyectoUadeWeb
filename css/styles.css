@@ -185,14 +185,13 @@ section div div img {
     padding-bottom: 4px;
 }
 
-.menuProductos li a:hover{
-    border-bottom: #f7d301 4px solid;
-    padding-bottom: 4px;
-}
+
 
 
 .active {
-    text-decoration: underline !important;
+    border-bottom: #f7d301 4px solid;
+    padding-bottom: 4px;
+
     
 }
 
@@ -303,6 +302,12 @@ section div div img {
 
 /* Nosotros */
 
+.section-nosotros{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4em;
+}
+
 .nosotros {
     width: 100%;
     border-radius: 1%;
@@ -401,6 +406,9 @@ form textarea {
 .btnContactanos:active {
     transform: translateY(-1px);
 }
+.maps {
+    border: solid 2px black;
+}
 /*Contactanos responsive*/
 @media screen and (max-width:858px){
     .contactanos{
@@ -430,6 +438,7 @@ footer {
     padding-bottom: 0px;
     width: 100%;
     margin-top: 2rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 .footerItems {
