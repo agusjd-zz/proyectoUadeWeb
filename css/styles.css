@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-.body {}
 
 /* Fuentes */
 .menu a {
@@ -278,6 +277,12 @@ section div div img {
 .productos div img {
     margin-top: 2rem;
 }
+.productos p {
+    font-size: 1.3em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
 /* Productos responsive */
 @media screen and (max-width:858px){
     .menuProductos li a {
@@ -442,7 +447,7 @@ footer {
 }
 
 .footerItems li {
-    margin-left: 2px;
+    margin-left: 1rem;
 }
 
 .uadelogo img {
@@ -452,25 +457,38 @@ footer {
 
 .alumnos1 {
     max-height: 70px;
-    margin-left: 10px;
     font-size: small;
 }
 .facultad {
     max-height: 70px;
-    margin-left: 10px;
     font-size: small;
 }
 .Profesor {
     max-height: 70px;
-    margin-left: 10px ;
     font-size: small;
 }
 
-.productos p {
-    font-size: 1.3em;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
+
+/*Footer reponsive*/
+@media screen and (max-width:858px){
+   footer{
+    flex-direction: column;
+   }
+   .footerItems{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+   }
+   .alumnos1{
+    margin-bottom: 3rem;
+   }
+   .facultad{
+    margin-bottom: 1rem;
+   }
+   .uadelogo img{
+    margin-left: 30%;
+    float: none;
+   }
+ 
 }
 
 /* keyframes */
